@@ -1,0 +1,11 @@
+version: 1.0
+
+player-count_placeholder: '%server_online%' #return amount of online player
+milestone-1:
+  player-requirement: 30 #amount of player that require to run the command
+  command: "mmocore booster create main 1 3600" #the command will run when the player is reach
+  cooldown: 3600 #cooldown time, in seconds
+milestone-2:
+  player-requirement: 60 #amount of player that require to run the command
+  command: "mmocore booster create main 1 18000" #the command will run when the player is reach
+  cooldown: 18000 #cooldown time, in seconds

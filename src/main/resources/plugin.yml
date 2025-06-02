@@ -1,0 +1,24 @@
+name: PlayerMilestone
+version: 1.3
+main: lbvn.eto2112.playermilestone.PlayerMilestone
+api-version: 1.21
+author: Eto2112
+description: Automatic run a command when player amount reach
+softdepend: [PlaceholderAPI]
+
+commands:
+  playermilestone:
+    description: Manages the PlayerMilestone
+    usage: /<command> <reload|version>
+    permission: playermilestone.use
+
+permissions:
+  playermilestone.use:
+    description: Allows use of the base /playermilestone command
+    default: op
+  playermilestone.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  playermilestone.version:
+    description: Allows viewing the plugin version
+    default: op
